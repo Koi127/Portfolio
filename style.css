@@ -1,0 +1,111 @@
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#nameDiv{
+    width:100%;
+}
+
+#aboutDiv{
+    width:100%;
+}
+
+#portfolioDiv{
+    width:100%;
+}
+
+#contactDiv{
+    width:100%;
+}
+
+#aboutMe{
+    cursor:pointer;
+}
+
+#portfolio{
+    cursor:pointer;
+}
+
+#contact{
+    cursor:pointer;
+}
+
+#phone{
+    display:none;
+}
+
+#about{
+    display:none;
+}
+
+.row{   
+
+    background-color:black;
+    color:white;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+
+}
+.headshot{
+    width:20%;
+   
+}
+.mid{
+    background-color:white;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-family: 'Comfortaa', cursive;
+
+}
+.aboutme{
+    border:1px solid black;
+    width:100%;
+}
+.top{
+    background-color:black;
+    font-size:20px;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border:solid #8EF6C5 5px;
+    border-radius:100px;
+}
+
+a{
+    color:white;
+}
+
+#portfolioLink{
+    text-decoration:none;
+}
+
+.githubDiv{
+    width:30%;
+}
+
+.facebookDiv{
+    width:30%;
+}
+
+.linkedInDiv{
+    width:30%;
+}
+
+.rowContact{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.rowFooter{
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
