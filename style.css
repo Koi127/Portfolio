@@ -1,3 +1,7 @@
+body{
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/loop-background-8.jpg");
+}
+
 .container{
     display:flex;
     flex-wrap:wrap;
@@ -39,6 +43,11 @@
     display:none;
 }
 
+#middle{
+    background-color:transparent;
+    width:100%;
+}
+
 .row{   
 
     background-color:black;
@@ -66,6 +75,7 @@
     border:solid black;
     width:100%;
 }
+
 .top{
     background-color:black;
     font-size:20px;
@@ -101,7 +111,8 @@ a{
     width:100%;
     display:flex;
     justify-content:space-around;
-    margin-left:10%;
+    margin-left:15%;
+    margin-bottom:20px;
 }
 
 .rowFooter{
@@ -109,4 +120,32 @@ a{
     background-color:black;
     color:white;
     text-align:center;
+}
+
+#github{
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 50px;
+    border:solid #C5C9FC;
+    background-color: #9096DD;
+}
+
+#facebook{
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 50px;
+    background-color: #9096DD;
+    border:solid #C5C9FC;
+}
+
+#linkedIn{
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 50px;
+    background-color: #9096DD;
+}
+
+.headshot{
+    border-radius: 500px;
+    width:100px;
 }
