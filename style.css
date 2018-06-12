@@ -63,7 +63,7 @@
 
 }
 .aboutme{
-    border:1px solid black;
+    border:solid black;
     width:100%;
 }
 .top{
@@ -100,7 +100,8 @@ a{
 .rowContact{
     width:100%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    margin-left:10%;
 }
 
 .rowFooter{
