@@ -3,41 +3,78 @@
         <title>Portfolio</title>
         <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+
     
     </head>
     <body>
         <div class="container">
-            <div class="top">
-                <div id="nameDiv">
-                    <p id="full Name">Full Name</p>
-                </div>
-                <div id="aboutDiv">
-                    <p id="aboutMe aboutLink"><a href=".aboutme">About Me</a></p>
-                </div>
-                <div id="portfolioDiv">
-                    <p id="portfolio"><a id="portfolioLink" href="#portfolioSection2">Portfolio</a></p>
-                </div>
-                <div id="contactDiv">
-                    <p id="contact">Contact</p>
-                    <p id="phone">-Phone Number: 1(415)640-9441 <a href="#contact-info">more</a></p>
-                </div>
-            </div>
+            <!--<div class="top">-->
+            <!--    <div id="nameDiv">-->
+            <!--        <p id="full Name">Full Name</p>-->
+            <!--    </div>-->
+            <!--    <div id="aboutDiv">-->
+            <!--        <p id="aboutMe aboutLink"><a href="#aboutMeSectionTitle">About Me</a></p>-->
+            <!--    </div>-->
+            <!--    <div id="portfolioDiv">-->
+            <!--        <p id="portfolio"><a id="portfolioLink" href="#portfolioSection2">Portfolio</a></p>-->
+            <!--    </div>-->
+            <!--    <div id="contactDiv">-->
+            <!--        <p id="contact">Contact</p>-->
+            <!--        <p id="phone">-Phone Number: 1(415)640-9441 <a href="#contact-info">more</a></p>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navigationBar">
+              <a class="navbar-brand" href="#">Kailin Ke</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            
             <div class="row mid" id="middle">
                 <h1>Kailin</h1>
                 <img class="headshot" src="dog.jpg">
                 <h1>Ke</h1>
             </div>
+            
             <div class="row aboutme">
+                <p id="aboutMeSectionTitle">About Me:</p>
                 <p>I'm currently a senior attending Balboa High School and enrolled in the Game Design Pathway. I am interested in pursuing computer science because it is magical how computer science has changed the world. In my free time, I like to play games and read.</p>
-                <img src="https://images.unsplash.com/photo-1496207108470-3878e528167d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=32a5a3760c56aa3f146bab17be4880db&auto=format&fit=crop&w=1050&q=80">
+                
             </div>
+            
             <div class= "portfolioSection">
                 <p id="portfolioSection2">My Projects:</p>
                 <p><a href="https://koi127.github.io/fanpage/">Fan Page</a></p>
                 <p><a href="https://koi127.github.io/crackthesafe/">Crackthesafe</a></p>
                 <p><a href="https://quackathon.glitch.me/">Code Nation Hakathon</a></p>
+                <p><a href="https://koi127.github.io/2018SummerProject/">The Jumping Game</a></p>
+                <p><a href="https://koi127.github.io/tictactoe/">Tic Tac Toe</a></p>
+                <p><a href="https://koi127.github.io/playlist/">Play List</a></p>
             </div>
+            
             <div class="rowcontact" id="contact-info">
                 <div class="githubDiv">
                     <button id="github">Github</button>
@@ -49,6 +86,7 @@
                     <button id="linkedIn">LinkedIn</button>
                 </div>  
             </div>
+            
             <div class="rowFooter">
                 <p>Copyright © Oppong LLC 2018</p>
             </div>
